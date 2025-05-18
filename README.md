@@ -1,9 +1,9 @@
-# DeepSeek Clone
+# AFG AI
 
-DeepSeek Clone is a web application designed to provide an interactive chat interface powered by **AI**. It allows users to engage in conversations, manage chats, and perform actions like renaming or deleting chats. The application is built using modern web technologies such as React, Next.js, and Node.js.
+AFG AI is a web application designed to provide an interactive chat interface powered by **AI**. It allows users to engage in conversations, manage chats, and perform actions like renaming or deleting chats. The application is built using modern web technologies such as React, Next.js, and Node.js.
 
 ## LIVE - DEMO 🌐
-Visit the 👉 [LINK 🔗](https://deepseek-clone-gold.vercel.app)
+Visit the 👉 [LINK 🔗](https://afg-ai.vercel.app)
 
 ## Features
 
@@ -205,7 +205,7 @@ For any questions or support, please contact:
 ---
 
 <div align="center">
-Made with ❤️ by <b>Elysée NIYIBIZI</b>
+Made with ❤️ by <b>AFG AI Team</b>
 </div>
 
 

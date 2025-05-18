@@ -27,3 +27,29 @@ code {
 pre {
   border-radius: 10px !important;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .h-screen {
+    height: auto;
+  }
+
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .max-w-3xl {
+    max-width: 100%;
+  }
+
+  .p-4 {
+    padding: 1rem;
+  }
+}

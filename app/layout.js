@@ -4,6 +4,7 @@ import "./prism.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { AppContextProvider } from "@/context/AppContext";
 import { Toaster } from "react-hot-toast";
+import Head from "next/head";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -11,7 +12,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "DeepSeek - ElyséeDev",
+  title: "AFG AI - ElyséeDev",
   description: "Full Stack Project",
 };
 
@@ -20,6 +21,14 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <AppContextProvider>
         <html lang="en">
+          <Head>
+            <script
+              src="https://recomi-app.powerdrill.ai/RecomiSDK.umd.cjs"
+              agentId="49b2d69b-5d25-48c1-ac6b-8b6c363b49b1"
+              domain="https://recomi-app.powerdrill.ai"
+              async
+            ></script>
+          </Head>
           <body className={`${inter.className} antialiased`}>
             <Toaster
               toastOptions={{
